@@ -59,44 +59,14 @@ extension ApiConfig {
     }
 }
 
-protocol ApiServiceType {
-    static var config: ApiConfig! { get set }
-    
-    init(config: ApiConfig)
-    func fetchList(_ pageSize: Int) -> Single<DashboardList>
-    func fetchVisualizationData(_ id: String) -> Single<VisualizationData>
-    
-    //Login API's
-    func login(_ userName: String, password: String) -> Single<LoginResponseData>
-    func logout() -> Single<EmptyResponse>
-}
-
-public class ApiService: ApiServiceType {
+public class ApiService {
     let config = ApiConfig(scheme: .http, baseUrl: "www.omdbapi.com?apikey=b4af551c")
     public static let service = ApiService(config: config)
     
     static var config: ApiConfig!
-    private let dashboardService = DashboardService()
-    private let authService = AuthenticationService()
 
     public required init(config: ApiConfig) {
         ApiService.config = config
-    }
-    
-    public func fetchList(_ pageSize: Int) -> Single<DashboardList> {
-        return dashboardService.fetchList(pageSize)
-    }
-    
-    public func fetchVisualizationData(_ id: String) -> Single<VisualizationData> {
-        return dashboardService.fetchData(id)
-    }
-    
-    public func login(_ userName: String, password: String) -> Single<LoginResponseData> {
-        return authService.login(userName, password: password)
-    }
-    
-    public func logout() -> Single<EmptyResponse> {
-        return authService.logout()
     }
 
 }

@@ -20,8 +20,6 @@
 		F10F3FB623A6344F00489A27 /* AuthenticationEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FA423A6344F00489A27 /* AuthenticationEndPoint.swift */; };
 		F10F3FB723A6344F00489A27 /* DashboardEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FA523A6344F00489A27 /* DashboardEndPoint.swift */; };
 		F10F3FB823A6344F00489A27 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FA723A6344F00489A27 /* ApiService.swift */; };
-		F10F3FB923A6344F00489A27 /* DashboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FA923A6344F00489A27 /* DashboardService.swift */; };
-		F10F3FBA23A6344F00489A27 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FAA23A6344F00489A27 /* AuthenticationService.swift */; };
 		F10F3FBB23A6344F00489A27 /* ServiceBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FAB23A6344F00489A27 /* ServiceBase.swift */; };
 		F10F3FBC23A6344F00489A27 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FAD23A6344F00489A27 /* HTTPTask.swift */; };
 		F10F3FBD23A6344F00489A27 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FAE23A6344F00489A27 /* HTTPMethod.swift */; };
@@ -49,8 +47,6 @@
 		F10F3FA423A6344F00489A27 /* AuthenticationEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationEndPoint.swift; sourceTree = "<group>"; };
 		F10F3FA523A6344F00489A27 /* DashboardEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardEndPoint.swift; sourceTree = "<group>"; };
 		F10F3FA723A6344F00489A27 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
-		F10F3FA923A6344F00489A27 /* DashboardService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardService.swift; sourceTree = "<group>"; };
-		F10F3FAA23A6344F00489A27 /* AuthenticationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		F10F3FAB23A6344F00489A27 /* ServiceBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceBase.swift; sourceTree = "<group>"; };
 		F10F3FAD23A6344F00489A27 /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
 		F10F3FAE23A6344F00489A27 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
@@ -173,8 +169,6 @@
 		F10F3FA823A6344F00489A27 /* RxService */ = {
 			isa = PBXGroup;
 			children = (
-				F10F3FA923A6344F00489A27 /* DashboardService.swift */,
-				F10F3FAA23A6344F00489A27 /* AuthenticationService.swift */,
 				F10F3FAB23A6344F00489A27 /* ServiceBase.swift */,
 			);
 			path = RxService;
@@ -328,9 +322,7 @@
 				F10F3FB723A6344F00489A27 /* DashboardEndPoint.swift in Sources */,
 				F10F3FB623A6344F00489A27 /* AuthenticationEndPoint.swift in Sources */,
 				F10F3FBD23A6344F00489A27 /* HTTPMethod.swift in Sources */,
-				F10F3FB923A6344F00489A27 /* DashboardService.swift in Sources */,
 				F10F3FC123A64A8500489A27 /* Movie.swift in Sources */,
-				F10F3FBA23A6344F00489A27 /* AuthenticationService.swift in Sources */,
 				F10F3FC323A64B5D00489A27 /* MovieList.swift in Sources */,
 				F10F3F8823A6116B00489A27 /* ContentView.swift in Sources */,
 			);
