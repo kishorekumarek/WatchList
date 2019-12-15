@@ -20,6 +20,10 @@ public struct ApiResponse: Mappable {
     var message: String
 }
 
+public enum MovieError: Error {
+    case invalidRequest
+}
+
 public enum ApiScheme: String {
     case http, https
 }
@@ -47,10 +51,23 @@ public class ApiService {
     let config = ApiConfig(scheme: .http, baseUrl: "www.omdbapi.com?apikey=b4af551c")
     public static let service = ApiService(config: config)
     
+    let router = Router<MovieEndPoint>()
+    
     static var config: ApiConfig!
 
     public required init(config: ApiConfig) {
         ApiService.config = config
+    }
+    func getMovie(params: GetMovieParams) -> Single<Movie> {
+        return ApiRequest.apiRequest { (observer) in
+            self.router.request(.getMovie(params), dataResponder: ApiDataResponder<Movie>.init(observer: observer))
+        }
+    }
+    
+    func search(params: SearchParams) -> Single<MovieList> {
+        return ApiRequest.apiRequest { (observer) in
+            self.router.request(.search(params), dataResponder: ApiDataResponder<MovieList>.init(observer: observer))
+        }
     }
 
 }

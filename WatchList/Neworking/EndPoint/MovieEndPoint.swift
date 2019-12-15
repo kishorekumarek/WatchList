@@ -37,7 +37,7 @@ extension MovieEndPoint: EndPointType {
         return nil
     }
     
-    func formGetMovieUrlParams(params: GetMovieParams) -> [String : String] {
+   private func formGetMovieUrlParams(params: GetMovieParams) -> [String : String] {
         var paramsDict: [String : String] = [:]
         paramsDict["s"] = params.searchTerm
         if let type = params.type {
@@ -52,7 +52,7 @@ extension MovieEndPoint: EndPointType {
         return paramsDict
     }
     
-    func formSearchParams(params: SearchParams) -> [String : String] {
+   private func formSearchParams(params: SearchParams) -> [String : String] {
 
         var paramsDict: [String : String] = [:]
         if let id = params.id {
