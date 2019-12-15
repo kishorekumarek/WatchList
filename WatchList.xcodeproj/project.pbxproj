@@ -14,8 +14,6 @@
 		F10F3F8A23A6116F00489A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10F3F8923A6116F00489A27 /* Assets.xcassets */; };
 		F10F3F8D23A6116F00489A27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10F3F8C23A6116F00489A27 /* Preview Assets.xcassets */; };
 		F10F3F9023A6116F00489A27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10F3F8E23A6116F00489A27 /* LaunchScreen.storyboard */; };
-		F10F3FB123A6344F00489A27 /* VisualizationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3F9C23A6344F00489A27 /* VisualizationData.swift */; };
-		F10F3FB223A6344F00489A27 /* DashboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3F9D23A6344F00489A27 /* DashboardList.swift */; };
 		F10F3FB323A6344F00489A27 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FA023A6344F00489A27 /* ParameterEncoding.swift */; };
 		F10F3FB423A6344F00489A27 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FA123A6344F00489A27 /* URLParameterEncoder.swift */; };
 		F10F3FB523A6344F00489A27 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FA223A6344F00489A27 /* JSONParameterEncoder.swift */; };
@@ -45,8 +43,6 @@
 		F10F3F8C23A6116F00489A27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F10F3F8F23A6116F00489A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F10F3F9123A6116F00489A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F10F3F9C23A6344F00489A27 /* VisualizationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualizationData.swift; sourceTree = "<group>"; };
-		F10F3F9D23A6344F00489A27 /* DashboardList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardList.swift; sourceTree = "<group>"; };
 		F10F3FA023A6344F00489A27 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
 		F10F3FA123A6344F00489A27 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
 		F10F3FA223A6344F00489A27 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
@@ -129,8 +125,6 @@
 		F10F3F9B23A6344F00489A27 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F10F3F9C23A6344F00489A27 /* VisualizationData.swift */,
-				F10F3F9D23A6344F00489A27 /* DashboardList.swift */,
 				F10F3FC023A64A8500489A27 /* Movie.swift */,
 				F10F3FC223A64B5D00489A27 /* MovieList.swift */,
 			);
@@ -326,11 +320,9 @@
 				F10F3FBF23A6344F00489A27 /* EndPointType.swift in Sources */,
 				F10F3F8423A6116B00489A27 /* AppDelegate.swift in Sources */,
 				F10F3F8623A6116B00489A27 /* SceneDelegate.swift in Sources */,
-				F10F3FB223A6344F00489A27 /* DashboardList.swift in Sources */,
 				F10F3FB423A6344F00489A27 /* URLParameterEncoder.swift in Sources */,
 				F10F3FBC23A6344F00489A27 /* HTTPTask.swift in Sources */,
 				F10F3FB823A6344F00489A27 /* ApiService.swift in Sources */,
-				F10F3FB123A6344F00489A27 /* VisualizationData.swift in Sources */,
 				F10F3FBB23A6344F00489A27 /* ServiceBase.swift in Sources */,
 				F10F3FBE23A6344F00489A27 /* Router.swift in Sources */,
 				F10F3FB723A6344F00489A27 /* DashboardEndPoint.swift in Sources */,
