@@ -12,22 +12,6 @@ public protocol Mappable: Decodable {
     
 }
 
-public struct DashboardData: Mappable {
-    
-}
-
-public struct LoginResponseData: Mappable {
-    var username: String
-    
-    init(username: String) {
-        self.username   =   username
-    }
-    
-    enum CodingKeys: String, CodingKey {
-        case username   =   "username"
-    }
-}
-
 public struct EmptyResponse: Mappable {
 }
 
