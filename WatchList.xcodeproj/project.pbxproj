@@ -17,8 +17,7 @@
 		F10F3FB323A6344F00489A27 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FA023A6344F00489A27 /* ParameterEncoding.swift */; };
 		F10F3FB423A6344F00489A27 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FA123A6344F00489A27 /* URLParameterEncoder.swift */; };
 		F10F3FB523A6344F00489A27 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FA223A6344F00489A27 /* JSONParameterEncoder.swift */; };
-		F10F3FB623A6344F00489A27 /* AuthenticationEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FA423A6344F00489A27 /* AuthenticationEndPoint.swift */; };
-		F10F3FB723A6344F00489A27 /* DashboardEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FA523A6344F00489A27 /* DashboardEndPoint.swift */; };
+		F10F3FB623A6344F00489A27 /* MovieEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FA423A6344F00489A27 /* MovieEndPoint.swift */; };
 		F10F3FB823A6344F00489A27 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FA723A6344F00489A27 /* ApiService.swift */; };
 		F10F3FBB23A6344F00489A27 /* ServiceBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FAB23A6344F00489A27 /* ServiceBase.swift */; };
 		F10F3FBC23A6344F00489A27 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FAD23A6344F00489A27 /* HTTPTask.swift */; };
@@ -27,6 +26,7 @@
 		F10F3FBF23A6344F00489A27 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FB023A6344F00489A27 /* EndPointType.swift */; };
 		F10F3FC123A64A8500489A27 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FC023A64A8500489A27 /* Movie.swift */; };
 		F10F3FC323A64B5D00489A27 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FC223A64B5D00489A27 /* MovieList.swift */; };
+		F10F3FC523A6571400489A27 /* RequestParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FC423A6571400489A27 /* RequestParams.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,8 +44,7 @@
 		F10F3FA023A6344F00489A27 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
 		F10F3FA123A6344F00489A27 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
 		F10F3FA223A6344F00489A27 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
-		F10F3FA423A6344F00489A27 /* AuthenticationEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationEndPoint.swift; sourceTree = "<group>"; };
-		F10F3FA523A6344F00489A27 /* DashboardEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardEndPoint.swift; sourceTree = "<group>"; };
+		F10F3FA423A6344F00489A27 /* MovieEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieEndPoint.swift; sourceTree = "<group>"; };
 		F10F3FA723A6344F00489A27 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		F10F3FAB23A6344F00489A27 /* ServiceBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceBase.swift; sourceTree = "<group>"; };
 		F10F3FAD23A6344F00489A27 /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
@@ -54,6 +53,7 @@
 		F10F3FB023A6344F00489A27 /* EndPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
 		F10F3FC023A64A8500489A27 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = ../../../../../Documents/Movie.swift; sourceTree = "<group>"; };
 		F10F3FC223A64B5D00489A27 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MovieList.swift; path = ../../../../../Documents/MovieList.swift; sourceTree = "<group>"; };
+		F10F3FC423A6571400489A27 /* RequestParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestParams.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +123,7 @@
 			children = (
 				F10F3FC023A64A8500489A27 /* Movie.swift */,
 				F10F3FC223A64B5D00489A27 /* MovieList.swift */,
+				F10F3FC423A6571400489A27 /* RequestParams.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -152,8 +153,7 @@
 		F10F3FA323A6344F00489A27 /* EndPoint */ = {
 			isa = PBXGroup;
 			children = (
-				F10F3FA423A6344F00489A27 /* AuthenticationEndPoint.swift */,
-				F10F3FA523A6344F00489A27 /* DashboardEndPoint.swift */,
+				F10F3FA423A6344F00489A27 /* MovieEndPoint.swift */,
 			);
 			path = EndPoint;
 			sourceTree = "<group>";
@@ -313,14 +313,14 @@
 				F10F3FB323A6344F00489A27 /* ParameterEncoding.swift in Sources */,
 				F10F3FBF23A6344F00489A27 /* EndPointType.swift in Sources */,
 				F10F3F8423A6116B00489A27 /* AppDelegate.swift in Sources */,
+				F10F3FC523A6571400489A27 /* RequestParams.swift in Sources */,
 				F10F3F8623A6116B00489A27 /* SceneDelegate.swift in Sources */,
 				F10F3FB423A6344F00489A27 /* URLParameterEncoder.swift in Sources */,
 				F10F3FBC23A6344F00489A27 /* HTTPTask.swift in Sources */,
 				F10F3FB823A6344F00489A27 /* ApiService.swift in Sources */,
 				F10F3FBB23A6344F00489A27 /* ServiceBase.swift in Sources */,
 				F10F3FBE23A6344F00489A27 /* Router.swift in Sources */,
-				F10F3FB723A6344F00489A27 /* DashboardEndPoint.swift in Sources */,
-				F10F3FB623A6344F00489A27 /* AuthenticationEndPoint.swift in Sources */,
+				F10F3FB623A6344F00489A27 /* MovieEndPoint.swift in Sources */,
 				F10F3FBD23A6344F00489A27 /* HTTPMethod.swift in Sources */,
 				F10F3FC123A64A8500489A27 /* Movie.swift in Sources */,
 				F10F3FC323A64B5D00489A27 /* MovieList.swift in Sources */,

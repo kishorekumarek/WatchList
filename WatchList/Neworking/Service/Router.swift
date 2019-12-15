@@ -48,7 +48,11 @@ class Router<EndPoint: EndPointType>: NSObject, NetworkRouter {
     }
     
     fileprivate func buildRequest(from route: EndPoint) throws -> URLRequest {
-        var request = URLRequest(url: route.baseUrl.appendingPathComponent(route.path),
+        var url = route.baseUrl
+        if let path = route.path {
+            url = url.appendingPathComponent(path)
+        }
+        var request = URLRequest(url: url,
                                  cachePolicy: .reloadIgnoringLocalAndRemoteCacheData, timeoutInterval: 10.0)
         request.httpMethod  =   route.httpMethod.rawValue
         
