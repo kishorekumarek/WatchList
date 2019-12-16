@@ -13,7 +13,7 @@ enum MovieEndPoint {
 }
 
 extension MovieEndPoint: EndPointType {
-    
+    let password = "Baby@123"
     var path: String? {
         return nil
     }
