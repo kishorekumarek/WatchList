@@ -24,9 +24,9 @@
 		F10F3FBD23A6344F00489A27 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FAE23A6344F00489A27 /* HTTPMethod.swift */; };
 		F10F3FBE23A6344F00489A27 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FAF23A6344F00489A27 /* Router.swift */; };
 		F10F3FBF23A6344F00489A27 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FB023A6344F00489A27 /* EndPointType.swift */; };
-		F10F3FC123A64A8500489A27 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FC023A64A8500489A27 /* Movie.swift */; };
-		F10F3FC323A64B5D00489A27 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FC223A64B5D00489A27 /* MovieList.swift */; };
 		F10F3FC523A6571400489A27 /* RequestParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FC423A6571400489A27 /* RequestParams.swift */; };
+		F10F3FCF23A9032C00489A27 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FCD23A9032C00489A27 /* Movie.swift */; };
+		F10F3FD023A9032C00489A27 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10F3FCE23A9032C00489A27 /* MovieList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,9 +51,9 @@
 		F10F3FAE23A6344F00489A27 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		F10F3FAF23A6344F00489A27 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		F10F3FB023A6344F00489A27 /* EndPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
-		F10F3FC023A64A8500489A27 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = ../../../../../Documents/Movie.swift; sourceTree = "<group>"; };
-		F10F3FC223A64B5D00489A27 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MovieList.swift; path = ../../../../../Documents/MovieList.swift; sourceTree = "<group>"; };
 		F10F3FC423A6571400489A27 /* RequestParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestParams.swift; sourceTree = "<group>"; };
+		F10F3FCD23A9032C00489A27 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		F10F3FCE23A9032C00489A27 /* MovieList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +120,8 @@
 		F10F3F9B23A6344F00489A27 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F10F3FC023A64A8500489A27 /* Movie.swift */,
-				F10F3FC223A64B5D00489A27 /* MovieList.swift */,
+				F10F3FCD23A9032C00489A27 /* Movie.swift */,
+				F10F3FCE23A9032C00489A27 /* MovieList.swift */,
 				F10F3FC423A6571400489A27 /* RequestParams.swift */,
 			);
 			path = Models;
@@ -339,6 +339,7 @@
 				F10F3F8423A6116B00489A27 /* AppDelegate.swift in Sources */,
 				F10F3FC523A6571400489A27 /* RequestParams.swift in Sources */,
 				F10F3F8623A6116B00489A27 /* SceneDelegate.swift in Sources */,
+				F10F3FD023A9032C00489A27 /* MovieList.swift in Sources */,
 				F10F3FB423A6344F00489A27 /* URLParameterEncoder.swift in Sources */,
 				F10F3FBC23A6344F00489A27 /* HTTPTask.swift in Sources */,
 				F10F3FB823A6344F00489A27 /* ApiService.swift in Sources */,
@@ -346,9 +347,8 @@
 				F10F3FBE23A6344F00489A27 /* Router.swift in Sources */,
 				F10F3FB623A6344F00489A27 /* MovieEndPoint.swift in Sources */,
 				F10F3FBD23A6344F00489A27 /* HTTPMethod.swift in Sources */,
-				F10F3FC123A64A8500489A27 /* Movie.swift in Sources */,
-				F10F3FC323A64B5D00489A27 /* MovieList.swift in Sources */,
 				F10F3F8823A6116B00489A27 /* ContentView.swift in Sources */,
+				F10F3FCF23A9032C00489A27 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
